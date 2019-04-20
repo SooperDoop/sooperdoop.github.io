@@ -174,7 +174,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #0b9a8d;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(31,44,108,.65);
+    background:rgba(1, 158, 144, 0.69);
     width:100%;
     height:100%;
 }
@@ -203,8 +203,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #0b9a8d;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
+    background: #00BCD4;
+    border:1px solid #00BCD4;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -212,7 +212,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #0b9a8d;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#009688;border: 1px solid #009688;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -268,7 +268,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #0b9a8d;}
     left: 0;
     width: 109%;
     height: 90px;
-    background: #1f2c6c;
+    background: #009688;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -360,7 +360,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-progress-txt h3 {
     width: 10%;
-    color: #a606c3;
+    color: #009688;
     position: relative;
     top: 6px;
     left: 20px;
@@ -380,7 +380,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom: 37px;
 }
 .progress-bar {
-   background: #b636ff;
+   background: #009688;
     border-radius: 3px;
    -webkit-transition: width 1.5s ease-in-out;
    -ms-transition: width 1.5s ease-in-out;
@@ -540,9 +540,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     width:100%;
     height: 100%;
     background: #0b9a8d;
-    background: -moz-linear-gradient(left, #0b9a8d 0%, #b636ff 100%);
-    background: -webkit-linear-gradient(left, #0b9a8d 0%,#b636ff 100%);
-    background: linear-gradient(to right, #0b9a8d 0%,#b636ff 100%);
+    background: -moz-linear-gradient(left, #0b9a8d 0%, #0b9a8d   100%);
+    background: -webkit-linear-gradient(left, #0b9a8d 0%,#0b9a8d   100%);
+    background: linear-gradient(to right, #0b9a8d 0%,#0b9a8d   100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b9a8d', endColorstr='#b636ff',GradientType=1 );
     -webkit-transform:scale(0);
     -moz-transform:scale(0);
@@ -609,7 +609,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(31,44,108,.5);
+    background:rgba(1, 158, 144, 0.69);
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -691,8 +691,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #009688;
+    border: 1px solid #009688;
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
@@ -717,8 +717,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #009688;
+    border: 1px solid #009688;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
@@ -793,8 +793,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background:#009688;
+	border:1px solid #009688;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -805,8 +805,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    color: #009688;
+	border:1px solid #009688;
 }
 
 #scroll-Top  .return-to-top i{
@@ -826,3 +826,4 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+/*========================Thank you=================
