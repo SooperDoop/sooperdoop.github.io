@@ -568,7 +568,7 @@
 										<div class="row">
 											<div class="col-sm-12" >
 												<div class="single-contact-btn" onclick="document.forms['myform'].submit(); return false;" >
-													<a class="contact-btn" href="#" onclick="document.forms['myform'].submit(); return false;"  role="button">submit</a>
+													<a class="contact-btn" id="mail" href="#" onclick="document.forms['myform'].submit(); return false;"  role="button">submit</a>
 												</div><!--/.single-single-contact-btn-->
 											</div><!--/.col-->
 										</div><!--/.row-->
@@ -648,9 +648,9 @@
 		  });
 
 		  var hreflink = "mailto:santos.shanavas@gmail.com?Subject=New%20Vendor&body=" + messageBody;
-		  $('.mail').attr("href", hreflink);
+		  $('#mail').attr("href", hreflink);
 		  e.preventDefault();
-		  $('.mail')[0].click()
+		  $('#mail')[0].click()
 
 	});
 		
