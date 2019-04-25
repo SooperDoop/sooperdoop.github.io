@@ -538,7 +538,7 @@
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-form">
-									<form action="mailto:santosh.shanavas@gmail.com" method="post" enctype="text/plain" name="myform">
+									<form class="questionnaire"  method="post" enctype="text/plain" name="myform">
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
@@ -638,7 +638,24 @@
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="assets/js/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script>
+		$('.questionnaire').on('submit', function(e) {
+
+		  var messageBody = '';
+		  $.each($('.questionnaire').serializeArray(), function(i, field) {
+		    messageBody += field.name + ": " + field.value + '%0D%0A';
+		  });
+
+		  var hreflink = "mailto:santos.shanavas@gmail.com?Subject=New%20Vendor&body=" + messageBody;
+		  $('.mail').attr("href", hreflink);
+		  e.preventDefault();
+		  $('.mail')[0].click()
+
+	});
+		
+	</script>
+	<script src="assets/js/jquery.js"></script>
         
         <!--modernizr.min.js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -647,18 +664,18 @@
         <script src="assets/js/bootstrap.min.js"></script>
 		
 		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
+	<script src="assets/js/bootsnav.js"></script>
 		
 		<!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
 		
 		<!-- for progress bar start-->
 
 		<!-- progressbar js -->
-		<script src="assets/js/progressbar.js"></script>
+	<script src="assets/js/progressbar.js"></script>
 
 		<!-- appear js -->
-		<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
 
 		<!-- for progress bar end -->
 
@@ -666,7 +683,7 @@
         <script src="assets/js/owl.carousel.min.js"></script>
 
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 		
         
         <!--Custom JS-->
